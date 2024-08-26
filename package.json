@@ -1,0 +1,31 @@
+{
+  "name": "my-elasticsearch-crud-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.15.0",
+    "axios": "^1.7.5",
+    "bootstrap": "^5.3.3",
+    "next": "14.2.6",
+    "react": "^18",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.6",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5"
+  }
+}
